@@ -1,0 +1,29 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="url(#grad)"/>
+
+  <!-- Book shape -->
+  <rect x="70" y="80" width="116" height="96" fill="white" rx="4"/>
+
+  <!-- Book spine -->
+  <rect x="126" y="80" width="4" height="96" fill="#667eea"/>
+
+  <!-- Pages -->
+  <line x1="90" y1="100" x2="120" y2="100" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+  <line x1="90" y1="115" x2="115" y2="115" stroke="#764ba2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="90" y1="130" x2="118" y2="130" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+
+  <line x1="138" y1="100" x2="168" y2="100" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+  <line x1="138" y1="115" x2="163" y2="115" stroke="#764ba2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="138" y1="130" x2="166" y2="130" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Star decoration -->
+  <path d="M 128 45 L 132 55 L 143 56 L 135 63 L 137 74 L 128 68 L 119 74 L 121 63 L 113 56 L 124 55 Z" fill="#FFD700"/>
+</svg>
