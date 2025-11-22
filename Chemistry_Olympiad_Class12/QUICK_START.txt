@@ -1,0 +1,175 @@
+================================================================================
+                    ⚡ QUICK START GUIDE ⚡
+         Chemistry Olympiad Question Bank Generator - Class 12
+================================================================================
+
+                        🚀 GET STARTED IN 5 MINUTES!
+
+--------------------------------------------------------------------------------
+STEP 1: GET YOUR API KEY (2 minutes)
+--------------------------------------------------------------------------------
+
+1. Visit: https://console.anthropic.com/
+2. Sign up (you get $5 FREE credit!)
+3. Go to "API Keys" → Click "Create Key"
+4. Copy your key (starts with sk-ant-api03-...)
+
+💡 TIP: Keep this key safe - you'll need it in Step 4
+
+
+--------------------------------------------------------------------------------
+STEP 2: CHECK PYTHON (30 seconds)
+--------------------------------------------------------------------------------
+
+Open Command Prompt (Windows) or Terminal (Mac/Linux)
+
+Type: python --version
+
+✅ If you see "Python 3.8" or higher → Go to Step 3
+❌ If you see an error → Install Python from python.org first
+
+
+--------------------------------------------------------------------------------
+STEP 3: INSTALL LIBRARIES (1 minute)
+--------------------------------------------------------------------------------
+
+In the same Command Prompt/Terminal:
+
+1. Navigate to this folder:
+   cd Chemistry_Olympiad_Class12
+
+2. Install requirements:
+   pip install -r requirements.txt
+
+Wait for installation to complete...
+
+
+--------------------------------------------------------------------------------
+STEP 4: RUN THE PROGRAM (30 seconds)
+--------------------------------------------------------------------------------
+
+EASIEST METHOD:
+
+Windows Users:
+   → Double-click "run.bat"
+
+Mac/Linux Users:
+   → Double-click "run.sh"
+   (or type: ./run.sh in terminal)
+
+ALTERNATIVE METHOD:
+
+Type in Command Prompt/Terminal:
+   python main.py
+
+
+--------------------------------------------------------------------------------
+STEP 5: GENERATE YOUR FIRST QUESTIONS (1 minute)
+--------------------------------------------------------------------------------
+
+The program will ask for your API key:
+
+1. Paste the API key from Step 1
+2. Press Enter
+
+Main Menu appears:
+
+3. Press "1" (Generate Questions)
+4. Press "4" (Quick Start - Aldehydes & Ketones)
+5. Wait 30-60 seconds...
+6. DONE! ✅
+
+Your first 10 questions are generated and saved!
+
+
+================================================================================
+                        🎯 WHAT TO DO NEXT?
+================================================================================
+
+View Your Questions:
+   → Main Menu: Press "3" (Export)
+   → Press "3" (Export to HTML)
+   → Open the HTML file in your browser
+
+Check Progress:
+   → Main Menu: Press "2" (View Progress)
+
+Generate More Questions:
+   → Main Menu: Press "1" (Generate Questions)
+   → Choose any topic
+   → Generate 10-15 questions at a time
+
+
+================================================================================
+                     📝 QUICK REFERENCE
+================================================================================
+
+MAIN MENU OPTIONS:
+
+1 → Generate Questions       (Create new questions)
+2 → View Progress           (See what you've generated)
+3 → Export Questions        (Create CSV/HTML files)
+4 → Search Questions        (Find specific topics)
+5 → Quality Check           (Verify question quality)
+6 → Setup API Key           (Change your API key)
+0 → Exit                    (Close the program)
+
+
+BEST PRACTICES:
+
+✅ Generate 10-15 questions per batch
+✅ Check quality score after each batch
+✅ Export to HTML regularly to review
+✅ Start with important topics first
+
+❌ Don't generate 50+ questions at once
+❌ Don't skip quality checks
+❌ Don't share your API key
+
+
+COST ESTIMATE:
+
+• 10 questions = ~$0.10-0.30
+• 200 questions = ~$2-6 total
+• You get $5 FREE to start!
+
+
+================================================================================
+                    ⚠️ TROUBLESHOOTING
+================================================================================
+
+PROBLEM: "Python not found"
+FIX: Install Python from python.org (check "Add to PATH")
+
+PROBLEM: "API key not working"
+FIX: Make sure you copied the entire key (starts with sk-ant-)
+
+PROBLEM: "Failed to generate"
+FIX: Check internet connection and try again
+
+PROBLEM: Program closes immediately
+FIX: Run from Command Prompt/Terminal, not by double-clicking main.py
+
+
+================================================================================
+                     📚 NEED MORE HELP?
+================================================================================
+
+→ Read the complete README.txt file (detailed instructions)
+→ Check Troubleshooting section in README.txt
+→ Verify all 5 steps above were completed correctly
+
+
+================================================================================
+                     🎓 YOU'RE ALL SET!
+================================================================================
+
+Run the program now:
+
+   Windows: Double-click run.bat
+   Mac/Linux: Double-click run.sh
+   OR type: python main.py
+
+                  Happy Question Generation! 🏆
+
+================================================================================

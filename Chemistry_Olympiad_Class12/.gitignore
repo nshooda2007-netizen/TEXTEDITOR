@@ -1,0 +1,23 @@
+# Sensitive files
+config.json
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Question bank files (optional - remove these lines if you want to commit questions)
+Organic_Chemistry/*.json
+Physical_Chemistry/*.json
+Inorganic_Chemistry/*.json
+exports/*
+progress/*
+
+# Keep directory structure
+!.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db

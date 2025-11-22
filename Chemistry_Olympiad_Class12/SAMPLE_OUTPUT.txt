@@ -1,0 +1,265 @@
+================================================================================
+                        SAMPLE QUESTION OUTPUT
+              Chemistry Olympiad Question Bank Generator
+================================================================================
+
+This file shows you what the generated questions look like.
+
+When you generate questions, they are saved as JSON files and can be exported
+to CSV and HTML formats. Here's an example:
+
+================================================================================
+
+QUESTION 1
+
+Topic: Aldehydes & Ketones
+Difficulty: Medium
+Marks: 4 | Time: 3-4 minutes
+
+--------------------------------------------------------------------------------
+
+Question:
+A compound (C₅H₁₀O) gives a positive 2,4-DNP test but does not undergo
+iodoform reaction. It shows two doublets in its ¹H-NMR spectrum. The compound
+also does not decolorize bromine water. What is the most likely structure?
+
+A) CH₃-CH₂-CH₂-CH₂-CHO
+B) CH₃-CH₂-CO-CH₂-CH₃
+C) (CH₃)₂CH-CH₂-CHO
+D) (CH₃)₂CH-CO-CH₃
+
+Correct Answer: C
+
+--------------------------------------------------------------------------------
+
+Solution:
+Let's analyze each clue systematically:
+
+Step 1: Positive 2,4-DNP test
+   → Confirms presence of carbonyl group (aldehyde or ketone)
+
+Step 2: Negative iodoform test
+   → Rules out CH₃-CO- or CH₃-CH(OH)- groups
+   → This eliminates options B and D as they contain CH₃-CO-
+
+Step 3: Two doublets in ¹H-NMR
+   → Suggests two different protons in similar but not identical environments
+   → Each coupled to one neighboring proton
+   → Pattern: -CH(CH₃)₂ group next to -CHO
+
+Step 4: Does not decolorize bromine water
+   → No C=C double bond present
+   → This is a saturated aldehyde
+
+Step 5: Molecular formula C₅H₁₀O
+   → Degree of unsaturation = 1 (accounted by C=O)
+
+Combining all clues:
+The compound must be (CH₃)₂CH-CH₂-CHO [3-methylbutanal]
+
+This structure:
+✓ Has aldehyde group (positive 2,4-DNP)
+✓ No CH₃-CO- group (negative iodoform)
+✓ Shows two doublets: one for (CH₃)₂CH- and one for -CHO
+✓ No C=C bond (doesn't decolorize Br₂ water)
+
+Answer: C
+
+--------------------------------------------------------------------------------
+
+Concepts Tested:
+• Carbonyl group tests (2,4-DNP, iodoform)
+• NMR spectroscopy interpretation
+• Structure determination from spectral data
+• Aldehyde vs ketone identification
+
+Common Mistake:
+Students often select option D thinking that any methyl ketone gives iodoform
+test. However, they miss that option D has CH₃-CO- which WOULD give positive
+iodoform test, contradicting the given data.
+
+Olympiad Insight:
+This question tests the ability to combine multiple pieces of spectroscopic
+and chemical evidence to arrive at a unique structure. Olympiad-level chemistry
+requires systematic elimination and understanding why each test gives specific
+results, not just memorizing the tests themselves.
+
+================================================================================
+
+QUESTION 2
+
+Topic: Chemical Kinetics
+Difficulty: Hard
+Marks: 4 | Time: 4-5 minutes
+
+--------------------------------------------------------------------------------
+
+Question:
+For a reaction: 2A + B → Products, the following data was obtained:
+
+Experiment | [A]₀ (M) | [B]₀ (M) | Initial rate (M/s)
+-----------|----------|----------|-------------------
+    1      |   0.1    |   0.1    |     2.0 × 10⁻³
+    2      |   0.2    |   0.1    |     8.0 × 10⁻³
+    3      |   0.1    |   0.2    |     4.0 × 10⁻³
+
+If the initial concentration of both A and B is 0.3 M, what will be the
+initial rate of reaction?
+
+A) 5.4 × 10⁻² M/s
+B) 2.7 × 10⁻² M/s
+C) 1.08 × 10⁻¹ M/s
+D) 3.6 × 10⁻² M/s
+
+Correct Answer: A
+
+--------------------------------------------------------------------------------
+
+Solution:
+
+Step 1: Determine order with respect to A
+Compare Experiments 1 and 2 ([B] constant):
+   When [A] doubles: 0.1 → 0.2
+   Rate changes: 2.0×10⁻³ → 8.0×10⁻³
+   Rate multiplies by 4
+
+   Rate₂/Rate₁ = ([A]₂/[A]₁)ⁿ
+   4 = (2)ⁿ
+   n = 2
+
+   Order with respect to A = 2
+
+Step 2: Determine order with respect to B
+Compare Experiments 1 and 3 ([A] constant):
+   When [B] doubles: 0.1 → 0.2
+   Rate changes: 2.0×10⁻³ → 4.0×10⁻³
+   Rate multiplies by 2
+
+   Rate₃/Rate₁ = ([B]₃/[B]₁)ᵐ
+   2 = (2)ᵐ
+   m = 1
+
+   Order with respect to B = 1
+
+Step 3: Write rate law
+   Rate = k[A]²[B]
+
+Step 4: Calculate rate constant k
+Using Experiment 1:
+   2.0×10⁻³ = k(0.1)²(0.1)
+   2.0×10⁻³ = k(0.001)
+   k = 2.0 M⁻²s⁻¹
+
+Step 5: Calculate rate when [A]₀ = [B]₀ = 0.3 M
+   Rate = k[A]²[B]
+   Rate = 2.0 × (0.3)² × (0.3)
+   Rate = 2.0 × 0.09 × 0.3
+   Rate = 2.0 × 0.027
+   Rate = 0.054 M/s = 5.4 × 10⁻² M/s
+
+Answer: A
+
+--------------------------------------------------------------------------------
+
+Concepts Tested:
+• Determination of order from experimental data
+• Method of initial rates
+• Rate law expression
+• Calculation of rate constant
+• Units of rate constant
+
+Common Mistake:
+Many students assume the order matches the stoichiometric coefficients (2 for A,
+1 for B from the balanced equation). While this happens to be correct here, it's
+a coincidence! Order must ALWAYS be determined experimentally, not from the
+balanced equation. Some students also make calculation errors when finding k or
+the final rate.
+
+Olympiad Insight:
+This question emphasizes that reaction order is an experimental quantity, not
+a theoretical one. The order can only be determined from experimental data.
+Advanced kinetics often involves complex rate laws where orders are fractional
+or don't match coefficients, testing deeper understanding of reaction mechanisms.
+
+================================================================================
+
+                        EXPORT FORMATS
+================================================================================
+
+The same questions can be exported in different formats:
+
+1. JSON FORMAT (for computer programs):
+{
+  "id": "Organic_Chemistry_Aldehydes_Ketones_2024_1",
+  "question": "A compound (C₅H₁₀O) gives...",
+  "options": {
+    "A": "CH₃-CH₂-CH₂-CH₂-CHO",
+    "B": "CH₃-CH₂-CO-CH₂-CH₃",
+    ...
+  },
+  "correct_answer": "C",
+  "difficulty": "Medium",
+  ...
+}
+
+2. CSV FORMAT (for Excel/Google Sheets):
+ID,Branch,Topic,Question,Option A,Option B,...
+Organic_Chemistry_Aldehydes_Ketones_2024_1,Organic Chemistry,...
+
+3. HTML FORMAT (for web browser):
+Beautiful formatted webpage with:
+• Color-coded difficulty levels
+• Expandable solutions
+• Professional styling
+• Print-friendly layout
+
+================================================================================
+
+                         USING THE EXPORTS
+================================================================================
+
+STUDY FROM HTML:
+   → Open HTML file in Chrome/Firefox/Safari
+   → Print to PDF for offline study
+   → Share with study group
+
+IMPORT TO EXCEL:
+   → Open CSV file in Excel
+   → Sort by difficulty, topic, or concepts
+   → Create custom quizzes
+   → Track which questions you've solved
+
+INTEGRATE WITH APPS:
+   → Use JSON files with quiz apps
+   → Import into Anki for spaced repetition
+   → Build custom study tools
+
+================================================================================
+
+                      QUALITY ASSURANCE
+================================================================================
+
+Every generated batch goes through quality checks:
+
+✓ Question length (minimum 50 characters)
+✓ All 4 options present
+✓ Correct answer specified (A/B/C/D)
+✓ Solution detail (minimum 100 characters)
+✓ Concepts tested listed
+✓ Common mistake explained
+✓ Olympiad insight provided
+✓ Proper difficulty classification
+
+Quality scores:
+• 90-100%: Excellent
+• 80-89%: Good
+• 60-79%: Acceptable (minor improvements needed)
+• Below 60%: Regenerate recommended
+
+================================================================================
+
+Start generating your question bank now!
+
+Run: python main.py
+
+================================================================================
